@@ -1,0 +1,1 @@
+A landing page website to display information about derpy animals, in order to demonstrating what I learn in the Odin Project's HTML Foundations course.
