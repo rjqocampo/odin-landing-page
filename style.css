@@ -13,9 +13,18 @@ a {
 
 html, body {
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-nav, ul, header, main, .info-contents-container, .testimonial-section {
+nav,
+ul, 
+header, 
+main, 
+.info-contents-container, 
+.testimonial-section, 
+.action-section,
+.action-container,
+footer {
     display: flex;
 }
 
@@ -26,7 +35,7 @@ header  {
 }
 
 nav {
-    padding: 0 120px;
+    padding: 0 150px;
     align-items: center;
     width: 1600px;
     height: 70px;
@@ -47,7 +56,7 @@ h3 {
 
 main {
     background-color: #1f2937;
-    padding: 50px 120px;
+    padding: 50px 150px;
     align-items: center;
     gap: 40px;
 }
@@ -132,9 +141,8 @@ h4 {
     flex: 0 1 700px;
 }
 
-p {
-    font-size: 36px;
-    font-style: italic;
+.quote {
+    font-size: 30px;
 }
 
 span {
@@ -142,5 +150,38 @@ span {
     text-align: right;
     font-size: 22px;
     font-weight: 800px;
+    padding: 10px;
 }
 
+.action-section {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 120px;
+    flex: 0 1 900px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 22px;
+    margin: 2px 0;
+}
+
+.action-button {
+    border: 2px solid #e5e7eb;
+}
+
+footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
